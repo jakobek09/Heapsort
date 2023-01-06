@@ -19,7 +19,7 @@ void heapify(int tab[], int n, int i)
 
    
 
-    if (left < n && tab[left] > tab[largest])
+    if (left < n && tab[left] > tab[largest]) //ssss
         largest = left;
 
 
